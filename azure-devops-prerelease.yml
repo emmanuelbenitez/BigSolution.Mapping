@@ -24,3 +24,4 @@ extends:
     Minor: ${{ variables.versionMinor }}
     Patch: ${{ variables.versionPatch }}
     IsPreRelease: true
+    SkipTest: true

@@ -18,3 +18,4 @@ extends:
     Major: ${{ variables.versionMajor }}
     Minor: ${{ variables.versionMinor }}
     Patch: ${{ variables.versionPatch }}
+    SkipTest: true
