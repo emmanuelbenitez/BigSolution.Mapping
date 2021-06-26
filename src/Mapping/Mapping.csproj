@@ -5,6 +5,7 @@
     <AssemblyTitle>BigSolution.Infra.Mapping</AssemblyTitle>
     <RootNamespace>BigSolution.Infra.Mapping</RootNamespace>
     <Description>Defines facades for mapping</Description>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup>

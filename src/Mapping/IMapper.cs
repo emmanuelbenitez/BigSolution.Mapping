@@ -21,9 +21,12 @@ using JetBrains.Annotations;
 namespace BigSolution.Infra.Mapping
 {
     [UsedImplicitly]
-    public interface IMapper<in TSource, out TDestination>
+    public interface IMapper<in TSource, TDestination>
     {
         [UsedImplicitly]
         TDestination Map(TSource source);
+
+        [UsedImplicitly]
+        void Map(TSource source, [NotNull]TDestination destination);
     }
 }
